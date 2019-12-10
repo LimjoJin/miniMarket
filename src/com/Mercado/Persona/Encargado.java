@@ -14,9 +14,20 @@ public class Encargado extends Empleado {
         this.listaEmp = listaEmp;
     }
 
-    public void agregarEmpleado(Empleado emp){
+    public void registrarEmpleado(){
+        Empleado emp = new Empleado();
+        emp.llenarDatos();
         listaEmp.adiFinal(emp);
+    }
 
+    public void editarDatosEmpleado(String id){
+        NodoDoble aux = listaEmp.getCabecera();
+        while (aux.getSig() != null){
+            if ( (((Empleado)(aux.getEst())).getId()).equals(id)){
+
+            }
+            aux = aux.getSig();
+        }
     }
 
     public Empleado retirarEmp(String id){
