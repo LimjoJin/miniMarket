@@ -24,6 +24,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Aaron Joel &lt;joe.lim.42.54@gmail.com&gt;" />
         <option value="Aaron Joel &lt;48360535+limjojin@users.noreply.github.com&gt;" />
         <option value="Aaron" />
       </list>
@@ -180,10 +181,10 @@
       <screen x="67" y="27" width="1213" height="773" />
     </state>
     <state x="481" y="131" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1213.773@67.27.1213.773" timestamp="1576592412874" />
-    <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2" timestamp="1576594314325">
+    <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2" timestamp="1576594892076">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2/67.27.1213.773@67.27.1213.773" timestamp="1576594314325" />
+    <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2/67.27.1213.773@67.27.1213.773" timestamp="1576594892076" />
     <state x="504" y="339" key="Github.Dialog.Accounts.Choose" timestamp="1576594403347">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
