@@ -34,6 +34,7 @@ public class Empleado extends Persona{
         this.antiguedad = antiguedad;
     }
 
+    //Implementar esto en interfaz grafica
     public void llenarDatos(){
         System.out.println("Ingrese el id:");
         String id = Leer.dato();

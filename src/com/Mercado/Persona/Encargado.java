@@ -7,6 +7,7 @@ public class Encargado extends Empleado {
     private ListaDobleNormal listaEmp; // Registro de empleados
 
     public Encargado() {
+        super();
     }
 
     public Encargado(double salario, double antiguedad, String id, String nombre, ListaDobleNormal listaEmp) {
@@ -18,16 +19,6 @@ public class Encargado extends Empleado {
         Empleado emp = new Empleado();
         emp.llenarDatos();
         listaEmp.adiFinal(emp);
-    }
-
-    public void editarDatosEmpleado(String id){
-        NodoDoble aux = listaEmp.getCabecera();
-        while (aux.getSig() != null){
-            if ( (((Empleado)(aux.getEst())).getId()).equals(id)){
-
-            }
-            aux = aux.getSig();
-        }
     }
 
     public Empleado retirarEmp(String id){

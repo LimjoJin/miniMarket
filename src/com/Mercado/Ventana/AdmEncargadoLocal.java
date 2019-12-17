@@ -1,6 +1,8 @@
 package com.Mercado.Ventana;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -14,19 +16,16 @@ public class AdmEncargadoLocal {
 
 
     public AdmEncargadoLocal() {
-        btnAdmEmp.addMouseListener(new MouseAdapter() {
+        btnAdmData.addActionListener(new ActionListener() {
             @Override
-            public void mouseClicked(MouseEvent e) {
-                //super.mouseClicked(e);
-                //System.out.println("Hiciste click en "+e);
-                /*
+            public void actionPerformed(ActionEvent e) {
+                //JOptionPane.showMessageDialog(null,"Hola Aaron");
                 JFrame frame = new JFrame("Administracion");
                 frame.setContentPane(new AdmEncargadoLocal().getPanelAdmEmpFondo());
                 frame.setSize(500,500);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
                 frame.setVisible(true);
-                */
             }
         });
     }

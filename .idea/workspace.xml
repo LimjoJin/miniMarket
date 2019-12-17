@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c52de2-1325-4d4f-bae1-81467940d2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEncargadoLocal.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEncargadoLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/Bienvenida.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/Bienvenida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Locales/Platillo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEmp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mercado/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Locales/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mercado/Persona/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Persona/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Mercado/Persona/Encargado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Persona/Encargado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mercado/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Locales/Tienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEncargadoLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/AdmEncargadoLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mercado/Ventana/Bienvenida.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mercado/Ventana/Bienvenida.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,25 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Mercado.Main" />
-      <module name="Supermercado" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Mercado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Hipermaxi.Main" />
       <module name="Supermercado" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Mercado.Main" />
+      <module name="Supermercado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Mercado.Locales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575938762114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 2 Creacion de las primeras interfaces graficas por Cody">
+      <created>1575997518319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575997518319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,41 +173,50 @@
     <MESSAGE value="First attempt java" />
     <MESSAGE value="Day 1 no significant changes" />
     <MESSAGE value="Day 1 Creacion de las primeras clase para proyecto por Cody" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 Creacion de las primeras clase para proyecto por Cody" />
+    <MESSAGE value="Day 2 Creacion de las primeras interfaces graficas por Cody" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 Creacion de las primeras interfaces graficas por Cody" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="481" y="131" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575994195720">
+    <state x="481" y="131" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1576592412874">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="481" y="131" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1213.773@67.27.1213.773" timestamp="1575994195720" />
+    <state x="481" y="131" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1213.773@67.27.1213.773" timestamp="1576592412874" />
     <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2" timestamp="1575997516575">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
     <state x="280" y="27" width="777" height="773" key="CommitChangelistDialog2/67.27.1213.773@67.27.1213.773" timestamp="1575997516575" />
-    <state width="1167" height="289" key="GridCell.Tab.0.bottom" timestamp="1575995502941">
+    <state width="1167" height="289" key="GridCell.Tab.0.bottom" timestamp="1576591590089">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state width="1167" height="289" key="GridCell.Tab.0.bottom/67.27.1213.773@67.27.1213.773" timestamp="1575995502941" />
-    <state width="1167" height="289" key="GridCell.Tab.0.center" timestamp="1575995502940">
+    <state width="1167" height="289" key="GridCell.Tab.0.bottom/67.27.1213.773@67.27.1213.773" timestamp="1576591590089" />
+    <state width="1167" height="289" key="GridCell.Tab.0.center" timestamp="1576591590084">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state width="1167" height="289" key="GridCell.Tab.0.center/67.27.1213.773@67.27.1213.773" timestamp="1575995502940" />
-    <state width="1167" height="289" key="GridCell.Tab.0.left" timestamp="1575995502939">
+    <state width="1167" height="289" key="GridCell.Tab.0.center/67.27.1213.773@67.27.1213.773" timestamp="1576591590084" />
+    <state width="1167" height="289" key="GridCell.Tab.0.left" timestamp="1576591590081">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state width="1167" height="289" key="GridCell.Tab.0.left/67.27.1213.773@67.27.1213.773" timestamp="1575995502939" />
-    <state width="1167" height="289" key="GridCell.Tab.0.right" timestamp="1575995502940">
+    <state width="1167" height="289" key="GridCell.Tab.0.left/67.27.1213.773@67.27.1213.773" timestamp="1576591590081" />
+    <state width="1167" height="289" key="GridCell.Tab.0.right" timestamp="1576591590088">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state width="1167" height="289" key="GridCell.Tab.0.right/67.27.1213.773@67.27.1213.773" timestamp="1575995502940" />
+    <state width="1167" height="289" key="GridCell.Tab.0.right/67.27.1213.773@67.27.1213.773" timestamp="1576591590088" />
     <state x="156" y="27" width="1024" height="773" key="SettingsEditor" timestamp="1575992539731">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
     <state x="156" y="27" width="1024" height="773" key="SettingsEditor/67.27.1213.773@67.27.1213.773" timestamp="1575992539731" />
-    <state x="329" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1575987843675">
+    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1575997542860">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="329" y="240" key="com.intellij.ide.util.TipDialog/67.27.1213.773@67.27.1213.773" timestamp="1575987843675" />
+    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1213.773@67.27.1213.773" timestamp="1575997542860" />
+    <state x="329" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1576038537458">
+      <screen x="67" y="27" width="1213" height="773" />
+    </state>
+    <state x="329" y="240" key="com.intellij.ide.util.TipDialog/67.27.1213.773@67.27.1213.773" timestamp="1576038537458" />
+    <state x="441" y="332" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576592788375">
+      <screen x="67" y="27" width="1213" height="773" />
+    </state>
+    <state x="441" y="332" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1213.773@67.27.1213.773" timestamp="1576592788375" />
     <state x="406" y="296" width="524" height="232" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1575991689201">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
