@@ -18,7 +18,7 @@ public class Bienvenida {
                 //JOptionPane.showMessageDialog(null,"Hola Aaron");
                 JFrame frame = new JFrame("Administracion");
                 frame.setContentPane(new AdmEncargadoLocal().getPanelAdmEmpFondo());
-                frame.setSize(500,500);
+                //frame.setSize(500,500);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
                 frame.setVisible(true);
@@ -29,7 +29,7 @@ public class Bienvenida {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Mercado Camacho");
         frame.setContentPane(new Bienvenida().PanelBienvenida);
-        frame.setSize(500,500);
+        //frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

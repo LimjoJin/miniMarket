@@ -19,13 +19,15 @@ public class AdmEncargadoLocal {
         btnAdmData.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //JOptionPane.showMessageDialog(null,"Hola Aaron");
+                JOptionPane.showMessageDialog(null,"Hola Aaron");
+                /*
                 JFrame frame = new JFrame("Administracion");
                 frame.setContentPane(new AdmEncargadoLocal().getPanelAdmEmpFondo());
                 frame.setSize(500,500);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
                 frame.setVisible(true);
+                */
             }
         });
     }
